@@ -1,0 +1,201 @@
+@import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 2px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 72px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.ironman {
+    text-align: left;
+    color: #ffffff;
+    padding-left: 5%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 800px;
+}
+
+.BW {
+    text-align: right;
+    color: #fff;
+    padding-right: 5%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 800px;
+}
+
+.CA {
+    text-align: left;
+    color: #fff;
+    padding-left: 1%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 800px;
+}
+
+.thor {
+    text-align: left;
+    color: #fff;
+    padding-left: 15%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 700px;
+}
+
+.DS {
+    text-align: right;
+    color: #fff;
+    padding-right: 5%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 740px;
+}
+
+.hulk {
+    text-align: right;
+    color: #fff;
+    padding-right: 20%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 800px;
+}
+
+.vision {
+    text-align: left;
+    color: #fff;
+    padding-left: 15%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 500px;
+}
+
+.BP {
+    text-align: right;
+    color: #fff;
+    padding-right: 5%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 800px;
+}
+
+.spidy {
+    text-align: left;
+    color: #fff;
+    padding-left: 15%;
+    text-shadow: 0 0 5px #000;
+    opacity: 0.7;
+    line-height: 800px;
+}
+
+/* CREATE PARALLAX EFFECT */
+
+section.bg.parallax {
+    height: 800px;
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.bg.img1 {
+    background-image: url("http://adruparelco.com/wp-content/uploads/2018/03/wallpapersden.com_avengers-infinity-war-illustration_2048x11521.jpg");
+    display: block;
+    top: 50%;
+}
+
+section.bg.img2 {
+    background-image: url("https://pre00.deviantart.net/7a5c/th/pre/f/2015/325/e/e/iron_man_by_reverendtundra-d9gnjas.png");
+}
+
+section.bg.img3 {
+    background-image: url("https://orig00.deviantart.net/72ce/f/2015/322/0/6/black_widow_by_reverendtundra-d9h4iii.png");
+}
+
+section.bg.img4 {
+    background-image: url("http://www.cartoondistrict.com/wp-content/uploads/2014/09/captain-america-wallpaper-for-desktop1-4.png");
+}
+
+section.bg.img5 {
+    background-image: url("https://i.pinimg.com/originals/d8/3d/2b/d83d2b8993989966d27732fb1547b4f4.jpg");
+}
+
+section.bg.img6 {
+    background-image: url("https://post-phinf.pstatic.net/MjAxNzA0MDZfNzgg/MDAxNDkxNDQ3NTE3Nzg5.NDytcXioKAMffdsRvO6xrdaWabCnR4jYuAaGsvgVvbUg.v5Ddgce41gt8lkwDHc9QV6nTkUGkc9UWdW3l934lbnAg.JPEG/IDGvwHkITN_hISiKO1Pp2e6J7JxA.jpg");
+}
+
+section.bg.img7 {
+    background-image: url("http://ozon4life.com/data/out/55/image-159479574.jpg");
+}
+
+section.bg.img8 {
+    background-image: url("https://img00.deviantart.net/35cd/i/2015/234/6/2/vision_simplistic_background_by_kaleidoscopecolor-d96p2ji.png");
+}
+
+section.bg.img9 {
+    background-image: url("https://pre00.deviantart.net/8e36/th/pre/f/2016/248/8/6/black_panther_by_reverendtundra-daglrcs.png");
+}
+
+section.bg.img10 {
+    background-image: url("http://www.1280x800.net/large/201206/6639.jpg");
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    section.bg.parallax {
+        height: 350px;
+        background-position: 80% 0%;
+    }
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        /*   font-family: 'Alegreya Sans', sans-serif; */
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    .logo {
+        width: 50%;
+        padding-bottom: 75%;
+    }
+    .ironman, .BW, .CA, .thor, .DS, .hulk, .vision, .BP, .spidy {
+        line-height: 100px;
+    }
+    .DS {
+        text-align: right;
+        padding-right: 15%;
+    }
+    .spidy {
+        padding-left: 15%;
+    }
+    section.bg.img1 {
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+    }
+    section.bg.img3 {
+        background-position: 25% 0%;
+    }
+    section.bg.img6 {
+        background-position: 3% 0%;
+    }
+    section.bg.img9 {
+        background-position: 30% 0%;
+    }
+    section.bg.img10 {
+        background-position: 100% 0%;
+    }
+}

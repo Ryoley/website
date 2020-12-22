@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Dekko|Lato:900|Rock+Salt");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(0)" opacity="0.2" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), #c52754;
+    background-size: 10px, 100%;
+}
+
+.bubble {
+    max-width: 500px;
+    margin: 2rem 0;
+    padding: 0.2rem 1.25rem;
+    text-align: center;
+    font-family: "Dekko", cursive;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.3" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), #fff;
+    background-size: 12px, 100%;
+    border: 0.4rem solid #000;
+    position: relative;
+}
+
+.bubble-highlight {
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.8" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23d68810"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), #ffcd28;
+    background-size: 14px, 100%;
+    font-weight: 700;
+}
+
+.bubble:before {
+    content: "";
+    position: absolute;
+    left: -1rem;
+    top: 0.15rem;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(35)" opacity="1" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'), #000;
+    background-size: 12px, 100%;
+    border: 0.4rem solid #000;
+    z-index: -5;
+}
+
+.myCard {
+    margin-bottom: 2rem;
+    padding: 1rem 7.5rem 11rem;
+    border-radius: 30px;
+    font-size: 2rem;
+    color: #fff;
+    background: #f8012d;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    box-shadow: 0 1px 15px -7.5px #000000;
+    position: relative;
+}
+
+.myCard strong {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.myCard:before {
+    content: "";
+    position: absolute;
+    top: 9rem;
+    left: 2%;
+    width: 96%;
+    height: 9rem;
+    background: #fff;
+    border-radius: 0 0 30px 30px;
+}
+
+#myName {
+    position: absolute;
+    top: 11.25rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+    font-weight: 300;
+    font-weight: bold;
+    color: #000;
+}

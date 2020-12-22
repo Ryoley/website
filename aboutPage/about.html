@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="https://freepngimg.com/download/spiderman/83074-spiderman-venom-youtube-symmetry-area-free-hq-image.png" />
+    <link rel="stylesheet" href="about.css" />
+    <title>Jarvis Helper | À propos</title>
+</head>
+
+<body>
+    <audio src="audio/spiderman.mp3" id="spiderman_theme"></audio>
+    <script type="text/javascript">
+        const marvelTheme = document.getElementById("spiderman_theme");
+        marvelTheme.volume = 0.15;
+        window.onload = function () {
+            document.getElementById("spiderman_theme").play();
+        };
+        function pauseAudio() {
+            marvelTheme.pause();
+        };
+    </script>
+    <div class="bubble">
+        Très bien tout le monde, faisons cela une <strong>dernière fois.</strong>
+    </div>
+    <div class="myCard">
+        <strong>Hello</strong>
+        <br />
+        my name is
+        <div id="myName">Paul Chevrier</div>
+    </div>
+    <button id="stop-music" class="bubble bubble-highlight" type="button" onclick=pauseAudio()>
+        Stop the music !
+    </button>
+</body>
+
+</html>
