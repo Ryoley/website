@@ -1,1 +1,1 @@
-ErrorDocument 404 .\static\404ErrorPage\404.html
+ErrorDocument 404 /404ErrorPage/404.html
