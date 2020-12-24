@@ -2,12 +2,12 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon"
-        href="https://freepngimg.com/download/spiderman/83074-spiderman-venom-youtube-symmetry-area-free-hq-image.png" />
-    <link rel="stylesheet" href="static/indexPage/index.css" />
-    <title>Paul Chevrier | Accueil</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"
+    href="https://www.freeiconspng.com/thumbs/vaporwave-png/retrowave-sun-with-alpha-background-vaporwave-png-27.png" />
+  <link rel="stylesheet" href="static/indexPage/index.css" />
+  <title>Paul Chevrier | Accueil</title>
 </head>
 
 <style media="screen">
@@ -15,28 +15,34 @@
 </style>
 
 <body>
-    <div class="base">
-        <div class="menu">
-            <div class="icon">
-                <div class="bar"></div>
-            </div>
-        </div>
-        <div class="icons">
-            <i class="fa fa-user" aria-hidden="true"></i>
-            <i class="fa fa-calendar-o" aria-hidden="true"></i>
-            <i class="fa fa-tachometer" aria-hidden="true"></i>
-        </div>
-        <div class="section">
-            <div class="cover1">
-                <div class="cover2">
-                    <a class="content" href="#calender"></a>
-                </div>
-            </div>
-        </div>
-        <a class="section-static top" href="#profile"></a>
-        <a class="section-static bottom" href="#dashboard"></a>
+  <div class="vapor">
+    <div class="sky">
+      <h1>Comming soon</h1>
+      <div class="sun"></div>
     </div>
-    <script src="static/indexPage/index.js"></script>
+
+    <div class="ground">
+      <div class="haze"></div>
+      <img class="palm" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209305/palmtree.png" alt="A palm tree." />
+      <img class="palmrev" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209305/palmtree.png"
+        alt="Another palm tree." />
+      <div class="car">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/209305/spooky-skeletal.gif" alt="spooky skeleton" />
+      </div>
+      <div class="grid-container">
+        <div class="grid" id="grid"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sound-wrapper">
+    <div class="emoji-toggle emoji-happy">
+      <input type="checkbox" id="sound" class="toggle" onchange="myfunction(this)">
+      <div class="emoji"></div>
+      <label for="sound" class="well"></label>
+    </div>
+  </div>
+  <script src="static/indexPage/index.js"></script>
 </body>
 
 </html>
