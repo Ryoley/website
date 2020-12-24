@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 :root {
-  --bg-color: #3a0ca3;
-  --main-color: #f72585;
-  --second-color: #7209b7;
+  --bg-color: #3c0fa5;
+  --main-color: #ff4bff;
+  --second-color: #730ab9;
 }
 
 * {
@@ -41,7 +41,7 @@ body {
 
 .glow__title {
   position: absolute;
-  top: 100px;
+  top: 75px;
   left: 0;
   right: 0;
   text-align: center;
