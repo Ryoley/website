@@ -41,11 +41,11 @@ body {
 
 .glow__title {
   position: absolute;
-  top: 60px;
+  top: 100px;
   left: 0;
   right: 0;
   text-align: center;
-  font-size: 6vw;
+  font-size: 60px;
   z-index: 996;
   color: #4cc9f0;
   opacity: 0.8;
