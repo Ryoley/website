@@ -15,34 +15,102 @@
 </style>
 
 <body>
-  <div class="glow">
-    <div class="glow__title">Coming soon...</div>
-    <div class="glow__worm">
-      <div class="glow__line"></div>
-      <div class="glow__line"></div>
-      <div class="glow__line"></div>
-      <div class="glow__line"></div>
-      <div class="glow__line"></div>
-    </div>
-    <div class="glow__track"></div>
-    <div class="glow__city">
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-      <div class="glow__house"></div>
-    </div>
-    <div class="glow__spotify">
-      <iframe src="https://open.spotify.com/embed/playlist/3ebHKSjHujS4Tyt2KKP97R" width="100%" height="100%"
-        frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    </div>
-  </div>
+  <main>
+    <header class="header">
+      <button id="toggle-audio" class type="button"></button>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#home">Home</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#about">About</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#contact">Contact</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#networks">Networks</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero full-height bg-overlay">
+      <video class="hero-video-bg" autoplay muted loop>
+        <source src="https://thumbs.gfycat.com/ElaborateZealousIlladopsis-mobile.mp4" type="video/mp4">
+      </video>
+      <div class="container container-centered">
+        <h1 class="hero-title text-white">
+          Hi! Welcome to my website!
+          <br />
+          When do we start?
+        </h1>
+        <a href="#about" target="_blank" class="btn">Let's go!</a>
+      </div>
+    </section>
+
+    <section id="about" class="about full-height">
+      <div class="container container-centered">
+        <h2 class="about-title">Who I am?</h2>
+        <img class="about-img"
+          src="https://cdn.discordapp.com/attachments/343140234944446464/813845319530971136/Photo_de_profil_-_n2.png"
+          alt="Paul Chevrier">
+        <div class="about-text">
+          <p>My name is Paul Chevrier and I am 20 years old.</p>
+          <p>I am a junior developer with a sensitivity for the web. I've been
+            passionate about new technologies since I was very young.</p>
+          <p>And as you can see, I love the synthwave! *-*</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="subscribe bg-overlay">
+      <div class="container">
+        <h2 class="subscribe-title text-white">Would you like to know more? Contact me!</h2>
+        <form class="subscribe-form" action="">
+          <div class="form-field">
+            <input type="email" placeholder="Your email" required>
+          </div>
+          <div class="form-field">
+            <input type="text" placeholder="Your message" required>
+          </div>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer id="networks" class="footer full-height">
+      <div class="container container-centered">
+        <h3 class="networks-title text-white">Networks</h3>
+        <ul class="networks-list">
+          <li class="networks-list__item">
+            <a href="https://www.instagram.com/paulolarbuste/">Instagram</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://www.reddit.com/user/Ryoley">Reddit</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://soundcloud.com/ryoley">SoundCloud</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://www.twitch.tv/ryoleytv">Twitch</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://twitter.com/ryoley">Twitter</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://www.youtube.com/channel/UCA-lsTKUoabL64yNvMCzuog">YouTube</a>
+          </li>
+        </ul>
+      </div>
+      <p class="copyright">2021 @ Paul Chevrier | All rights reserved.</p>
+      <button id="callback"></button>
+    </footer>
+  </main>
+  <audio id="audio-bg" loop src="static/indexPage/audio/mrkitty-after-dark.mp3"></audio>
 
   <script src="static/indexPage/index.js"></script>
 </body>
