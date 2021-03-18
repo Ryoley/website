@@ -79,6 +79,7 @@ input, button {
   min-width: 150px;
   color: #000;
   font-size: 18px;
+  border-radius: 10px;
   background-color: #2de2e6;
   transition: all 250ms;
 }
@@ -90,6 +91,7 @@ input, button {
 .btn[type=submit] {
   color: #fff;
   font-weight: bold;
+  border-radius: 10px;
   text-transform: uppercase;
   background-color: #9700cc;
   overflow: hidden;
@@ -255,6 +257,7 @@ button.btn {
   font-size: 18px;
   font-weight: bold;
   border: 2px solid #9700cc;
+  border-radius: 5px;
   background-color: #fff;
   box-sizing: border-box;
   transition: all 250ms;
