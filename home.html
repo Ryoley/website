@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"
+    href="https://www.freeiconspng.com/thumbs/vaporwave-png/retrowave-sun-with-alpha-background-vaporwave-png-27.png" />
+  <link rel="stylesheet" href="static/homePage/home.css" />
+  <title>Paul Chevrier | Home</title>
+</head>
+
+<style media="screen">
+
+</style>
+
+<body>
+  <main>
+    <header class="header">
+      <a href="/home.html">
+        <img id="logo"
+          src="https://www.freeiconspng.com/thumbs/vaporwave-png/retrowave-sun-with-alpha-background-vaporwave-png-27.png"
+          alt="" />
+      </a>
+      <button id="toggle-audio" class type="button"></button>
+      <div class="container">
+        <div class="nav-list">
+          <div class="nav-list__item">
+            <a href="#home">Home</a>
+          </div>
+          <div class="nav-list__item">
+            <a href="#about">About</a>
+          </div>
+          <div class="nav-list__item">
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="nav-list__item">
+            <a href="#networks">Networks</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero full-height bg-overlay">
+      <video class="hero-video-bg" autoplay muted loop>
+        <source src="https://thumbs.gfycat.com/ElaborateZealousIlladopsis-mobile.mp4" type="video/mp4">
+      </video>
+      <div class="container container-centered">
+        <h1 class="hero-title text-white">
+          Hi! Welcome to my website!
+          <br />
+          When do we start?
+        </h1>
+        <a href="#about" class="btn">Let's go!</a>
+      </div>
+    </section>
+
+    <section id="about" class="about full-height">
+      <div class="container container-centered">
+        <h2 class="about-title">Who I am?</h2>
+        <img class="about-img" src="static/homePage/images/paul.png" alt="">
+        <div class="about-text">
+          <p>My name is Paul Chevrier and I'm 20 years old.</p>
+          <p>I'm a junior software developer. I'm
+            passionate about new technologies since I was young.</p>
+          <p>And as you can see, I love the synthwave! *-*</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact bg-overlay">
+      <div class="container">
+        <h2 class="contact-title text-white">Would you like to know more? Contact me!</h2>
+        <form method="POST" class="contact-form" action="" onsubmit="return false">
+          <div class="form-field">
+            <input class="name" type="text" placeholder="Your name" required>
+          </div>
+          <div class="form-field">
+            <input class="email" type="email" placeholder="Your email" required>
+          </div>
+          <div class="form-field">
+            <input class="message" type="text" placeholder="Your message" required>
+          </div>
+          <button class="btn" type="submit" onclick="sendEmail();">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer id="networks" class="footer full-height">
+      <div class="container container-centered">
+        <h3 class="networks-title text-white">Networks</h3>
+        <ul class="networks-list">
+          <li class="networks-list__item">
+            <a href="https://github.com/Ryoley">GitHub</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://www.instagram.com/paulolarbuste/">Instagram</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://www.reddit.com/user/Ryoley">Reddit</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://soundcloud.com/ryoley">SoundCloud</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://www.twitch.tv/ryoleytv">Twitch</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://twitter.com/ryoley">Twitter</a>
+          </li>
+          <li class="networks-list__item">
+            <a href="https://www.youtube.com/channel/UCA-lsTKUoabL64yNvMCzuog">YouTube</a>
+          </li>
+        </ul>
+      </div>
+      <p class="copyright">2021 © Paul Chevrier</p>
+      <button id="callback"></button>
+    </footer>
+  </main>
+  <audio id="audio-bg" loop src="static/homePage/audio/mrkitty-after-dark.mp3"></audio>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="static/homePage/home.js"></script>
+</body>
+
+</html>
